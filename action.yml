@@ -1,0 +1,19 @@
+name: "Discord Action"
+description: "Send GitHub Actions workflow status to Discord"
+author: "jbj338033"
+branding:
+  icon: "bell"
+  color: "blue"
+
+inputs:
+  webhook:
+    description: "Discord webhook URL"
+    required: true
+  language:
+    description: "Notification language (en, ko, ja)"
+    required: false
+    default: "en"
+
+runs:
+  using: "node16"
+  main: "dist/index.js"
