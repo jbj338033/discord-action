@@ -1,4 +1,4 @@
-name: "Discord Action"
+name: "JMino Discord Notification"
 description: "Send GitHub Actions workflow status to Discord"
 author: "jbj338033"
 branding:
