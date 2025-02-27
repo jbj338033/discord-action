@@ -9,3 +9,5 @@ yarn-error.log
 .idea/
 *.swp
 *.swo
+
+pnpm-lock.yaml
